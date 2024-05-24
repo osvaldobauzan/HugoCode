@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <title>Google cloud course</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+    function relocate(x) {
+      location.href = "";
+
+      switch (x) {
+        case 1:
+          address = "http://194.164.174.93/index.html";
+          break;       
+        case 2:
+          address = "http://16.16.170.146/";
+          break;
+        case 3:
+          address = "https://fastapi.tiangolo.com/";
+          break;
+        default:
+          address = "#";
+
+      }
+      location.href = address;
+    }
+  </script>
+</head>
+<body>
+
+  <div class="container p-5 my-3 bg-primary text-white">
+    <h1>Google Cloud projects</h1>
+  </div>
+  <div class="text-center">
+    <img src="images/2810941.png" style="max-width:100%;height:auto; padding: 0%;">
+  </div>
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-sm-4">
+        <h3>Clinica Dental</h3>
+        <p>Clínica dental avanzada: citas rápidas, tratamientos expertos, sonrisas perfectas garantizadas.</p>
+        <p class="text-end"><input type="button" class="btn btn-primary btn-lg active " value="Proyecto" onclick="relocate(1)"></p>
+        <p></p>
+      </div>
+      <div class="col-sm-4">
+        <h3>Tour Manager</h3>
+        <p>Tour Manager: organiza itinerarios, gestiona reservas y controla gastos fácilmente.</p>
+        <p class="text-end"><input type="button" class="btn btn-primary btn-lg active" value="Proyecto" onclick="relocate(2)">
+        </p>
+        <p></p>
+      </div>
+      <div class="col-sm-4">
+        <h3>Project 3</h3>
+        <p>Some description to this current project....</p>
+        <p class="text-end"><input type="button" class="btn btn-primary btn-lg active" value="Proyecto" onclick="relocate(3)">
+        </p>
+        <p></p>
+      </div>
+      <div class="col-sm-4">
+        <h3>Project 4</h3>
+        <p>Some description to this current project....</p>
+        <p class="text-end"><input type="button" class="btn btn-primary btn-lg active" value="Proyecto" onclick="relocate(4)">
+        </p>
+        <p></p>
+      </div>
+      <div class="col-sm-4">
+        <h3>Project 5</h3>
+        <p>Some description to this current project....</p>
+        <p class="text-end"><input type="button" class="btn btn-primary btn-lg active" value="Proyecto" onclick="relocate(5)">
+        </p>
+        <p></p>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
